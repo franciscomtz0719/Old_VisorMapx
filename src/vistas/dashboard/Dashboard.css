@@ -1,0 +1,86 @@
+/*Dashboard */
+:root {
+  --blanco: #ffff;
+  --gris: #cccc;
+  --AzulTemplate: #303c54;
+  --negro: rgb(0, 0, 0.5);
+  --sombra: 3px 5px 2px 0px rgba(55, 46, 48, 0.17);
+  --azul1: #2d2a8c;
+  --azul2: #3854a6;
+  --azul3: #3365a6;
+  --azul4: #368abf;
+  --azul5: #48b0d9;
+}
+
+
+
+.contenedor-cabecera {
+  background-color: var(--AzulTemplate) !important;
+  color: var(--blanco) ;
+  font-size: .8rem ;
+}
+
+.contenedor-cabecera-principal {
+  background-color: var(--AzulTemplate) !important;
+  color: var(--blanco) ;
+  font-size: 1rem ;
+}
+
+.estado{
+  height:5vh;
+}
+.estado .estado{
+  margin-left: 15px;
+}
+
+.infoempresa {
+  margin-right: 2rem;
+}
+
+.infoempresaleft h6 {
+  text-align: left;
+  font-size: 2rem;
+  text-decoration: solid;
+}
+
+.infoempresa h1,
+.infoempresa h2,
+.infoempresa h3,
+.infoempresa h6 {
+  text-align: right;
+  text-decoration: solid;
+}
+
+.imagencontainer {
+  display: grid;
+  place-items: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  height: 25vh;
+  width: auto;
+}
+
+.logoEmpresa {
+  height: 25vh;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .imagencontainer {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 648px) {
+  .imagencontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+}

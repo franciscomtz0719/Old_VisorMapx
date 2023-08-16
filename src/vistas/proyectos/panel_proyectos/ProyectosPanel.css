@@ -1,0 +1,76 @@
+:root {
+  --blanco: #ffff;
+  --gris: #cccc;
+  --negro: rgb(0, 0, 0.5);
+  --sombra: 3px 5px 2px 0px rgba(55, 46, 48, 0.17);
+
+  --azulTemplate: #303c54;
+  --azulTemplate2: #324364;
+
+  --azul1: #2d2a8c;
+  --azul2: #303c54;
+  --azul3: #3365a6;
+  --azul4: #368abf;
+  --azul5: #48b0d9;
+}
+.card-dashboard:hover {
+  background-color: rgb(225, 7, 7);
+}
+
+.contenedor-cabecera {
+  background-color: var(--azulTemplate);
+  color: var(--blanco);
+  font-size: 0.8rem;
+}
+
+.contenedor-cabecera-principal {
+  background-color: var(--azulTemplate);
+  color: var(--blanco);
+  font-size: 1rem;
+}
+
+.contenedor-cabecera-grafica {
+  background-color: var(--blanco);
+  color: var(--azulTemplate);
+  font-size: 0.8rem;
+}
+
+.contenedor-elementos {
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+.boton-elemento {
+  width: 100%;
+  border: var(--azulTemplate) 2px solid;
+  color: var(--azulTemplate) !important;
+  font-size: 0.8rem;
+}
+.boton-elemento:hover {
+  width: 100%;
+  background-color: var(--azulTemplate);
+  color: var(--blanco) !important;
+}
+
+.icono {
+  width: 30;
+}
+
+li {
+  font-size: 0.9rem;
+}
+
+span {
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+pre {
+  margin-top: 1rem;
+}
+
+.cursor {
+  cursor: pointer;
+}

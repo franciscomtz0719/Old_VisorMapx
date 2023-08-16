@@ -1,0 +1,6 @@
+
+.panel-loader{
+    display: grid;
+    width: 100%;
+    place-items: center;
+}

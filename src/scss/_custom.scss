@@ -1,0 +1,70 @@
+// Here you can add other styles
+
+:root {
+    --blanco: #ffff;
+    --gris: #cccc;
+    --negro: rgb(0, 0, 0.5);
+    --sombra: 3px 5px 2px 0px rgba(55, 46, 48, 0.17);
+  
+    --azulTemplate: #303c54;
+    --azulTemplate2: #324364;
+  
+    --azul1: #2d2a8c;
+    --azul2: #3854a6;
+    --azul3: #3365a6;
+    --azul4: #368abf;
+    --azul5: #48b0d9;
+  }
+
+h1{    
+    font-size: clamp(15px,6vh,45px) !important;    
+}
+h2{    
+    font-size: clamp(13px,5vh,40px)  !important;    
+}
+h3{    
+    font-size: clamp(11px,4vh,28px) !important;    
+}
+h4{    
+    font-size: clamp(9px,3vh,19px) !important;    
+}
+h5{    
+    font-size: clamp(7px,2vh,17px) !important;    
+}
+
+p{    
+    font-size: clamp(5px,2vh,17px) !important;    
+}
+
+/*Configuraciones*/
+  
+  .contenedor-cabecera {
+    background-color: var(--azulTemplate) !important;
+    color: var(--blanco);
+  }
+  
+  .contenedor-cabecera-principal {
+    background-color: var(--azulTemplate);
+    color: var(--blanco);
+  }
+  
+  .contenedor-cabecera-grafica {
+    background-color: var(--blanco);
+    color: var(--azulTemplate);
+  }
+  
+  .icono {
+    width: 48px;
+    height: 48px;
+  }
+  
+  pre {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  li {
+    font-size: 0.9rem;
+  }
+  
+

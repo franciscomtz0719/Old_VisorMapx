@@ -1,0 +1,39 @@
+:root {
+    --blanco: #ffff;
+    --gris: #cccc;
+    --AzulTemplate: #303c54;
+    --negro: rgb(0, 0, 0.5);
+    --sombra: 3px 5px 2px 0px rgba(55, 46, 48, 0.17);
+    --azul1: #2d2a8c;
+    --azul2: #3854a6;
+    --azul3: #3365a6;
+    --azul4: #368abf;
+    --azul5: #48b0d9;
+}
+
+
+.navegacion{
+    border: none !important;
+    background: rgba(0, 0, 0, 0)  !important;;
+    position: sticky  !important;;    
+    top: 115px  !important;;
+    z-index: 10  !important;;
+    pointer-events: none;
+}
+.navegacion .panel{
+    pointer-events: none;
+}
+.navegacion-panel{
+    width: auto;
+    background: var(--blanco);
+    border: 1px solid;
+    border-radius: 0.25rem;
+    border-color: #d8dbe0;
+}
+.link{
+    background-color: var(--blanco);
+    color: var(--azul1);
+    border-top: 1px solid #d8dbe0 !important;    
+    border-bottom: 1px solid #d8dbe0 !important;    
+    pointer-events: visible;
+}

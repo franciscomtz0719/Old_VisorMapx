@@ -1,0 +1,190 @@
+:root {
+  --gradiente: linear-gradient(
+    90deg,
+    rgba(58, 87, 180, 1) 0%,
+    rgba(38, 107, 201, 1) 51%,
+    rgba(69, 202, 252, 1) 100%
+  );
+  --md : 768px;
+  --azulTemplate: #303c54;
+  --azulTemplate2: #324364;
+  --azul : #2C4FA2;
+  --azul1: #2d2a8c;
+  --azul2: #3854a6;
+  --azul3: #3365a6;
+  --azul4: #368abf;
+  --azul5: #31e1ee;
+}
+
+.landpage{
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.nav-app .logo{
+  height: 2rem;
+  width: auto;
+}
+.nav-app{
+  background: rgb(44,79,162);
+  background: linear-gradient(0deg, var(--azul) 0%, var(--azul4) 100%);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.seccion-inicio{
+  background-color: var(--azul);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;  
+  width: 100vw;
+}
+.seccion-inicio .p-inicio{
+  padding-top: 30vh;
+  padding-bottom: 20vh;
+}
+.seccion-inicio .dispositivos{
+  width: 100%;
+  height: auto;
+}
+.seccion-plataforma{
+  background-color: white;
+  padding: 10vh 0 10vh;  
+  min-height: auto;  
+  width: 100vw;
+}
+.seccion-plataforma .t1{
+  font-size: clamp(1rem,5vh,3rem) !important;  
+}
+.seccion-plataforma .t2{
+  font-size: clamp(2rem,10vh,8rem) !important;  
+}
+.seccion-plataforma .t3{
+  font-size: clamp(1rem,3vh,2rem) !important;  
+}
+.seccion-plataforma .t4{
+  font-size: clamp(1rem,5vh,3rem) !important;  
+}
+.seccion-plataforma .p1{
+  font-size: clamp(0.5rem,3vh,2rem) !important;  
+}
+.seccion-plataforma .obj{
+  font-size: clamp(0.5rem,3vh,2rem) !important;  
+}
+@media screen and (max-width: 768px){ 
+  .seccion-plataforma .p1{
+    font-size: clamp(1rem,2vh,1.5rem) !important;  
+  }
+  .seccion-plataforma .obj{
+    font-size: clamp(1rem,1vh,1.5rem) !important;  
+  }
+}
+
+.seccion-beneficios{
+  background-color: var(--azul);
+  padding: 10vh 0 10vh;  
+  min-height: auto;  
+  width: 100vw;
+}
+.seccion-beneficios .laptop{
+  height: 100%;
+  width: auto;
+}
+.seccion-beneficios .indicador{
+  height: 2rem;
+  width: auto;
+}
+
+@media screen and (max-width: 768px){ 
+  .seccion-beneficios .laptop{
+    height: 100%;
+    max-height: 300px;
+    width: auto;
+  }
+}
+
+.seccion-caracteristicas{
+  background-color: white;
+  padding: 10vh 0 10vh;    
+  width: 100vw;
+}
+.seccion-caracteristicas .carta{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.seccion-caracteristicas .encabezado{
+  background-color: var(--azul);
+}
+.seccion-caracteristicas .container-cards{
+  width: 80%;
+  height: 100%;
+}
+.seccion-caracteristicas .caracteristica-img{
+  width: 80%;
+  height: auto;  
+}
+.seccion-caracteristicas .caracteristica-txt{
+  font-size: clamp(0.8rem,3vh,1.1rem) !important;  
+}
+
+@media screen and (max-width: 768px){ 
+  .seccion-caracteristicas .caracteristica-txt{
+    font-size: clamp(1rem,2vh,1rem) !important;  
+  }
+}
+@media screen and (max-width: 992px){ 
+  .seccion-caracteristicas .container-cards{
+    width: 100%;
+  }
+}
+
+.seccion-demo{
+  background-color: var(--azul);
+  padding: 10vh 0 10vh;  
+  min-height: auto;  
+  width: 100vw;
+}
+.seccion-demo .celular{
+  height: 100%;
+  width: auto;
+}
+.seccion-demo .logo{
+  height: 5rem;
+  width: auto;
+}
+@media screen and (max-width: 768px){ 
+  .seccion-demo .celular{
+    max-height: 400px;   
+  }
+  .seccion-demo .logo{
+    height: clamp(2rem,8vh,5rem) !important;
+    width: auto;
+  }
+}
+
+.footer-app{
+  background-color: var(--azulTemplate);
+  padding: 5vh 0 5vh;  
+  min-height: auto;  
+}
+.footer-app .logo{
+  height: clamp(2rem,7vw,4rem);
+  width: auto;
+}
+
+
+.text-azul{
+  color: var(--azul);
+}
+
+.mt-6{
+  margin-top: 4rem;
+}
+.mt-7{
+  margin-top: 6rem;
+}

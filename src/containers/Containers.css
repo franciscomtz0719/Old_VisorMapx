@@ -1,0 +1,42 @@
+:root {
+  /* Paleta de colores Flogo */
+  --azulTemplate: #303C54;
+  --azulTemplate2: #324364;
+  --azul1: #2d2a8c;
+  --azul2: #3854a6;
+  --azul3: #3365a6;
+  --azul4: #368abf;
+  --azul5: #48b0d9;
+}
+
+.color-fondo {
+  background-color: var(--azulTemplate) !important;
+}
+
+.c-sidebar-nav-link{
+  background-color: var(--azulTemplate) !important;
+}
+.c-sidebar-nav-link:hover{
+  background-color: var(--azul1) !important;
+}
+
+
+
+.alerta p{
+  display: block;
+}
+.alerta:active{
+  background-color: var(--azulTemplate2) !important;
+}
+
+.footer-logo{
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+.footer-flogo{
+  width: 4rem;
+  margin-top: .8rem;
+  margin-left: .5rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,78 @@
+/* ALERTAS */
+:root {
+  --blanco: #ffff;
+  --gris: #cccc;
+  --AzulTemplate: #303c54;
+  --negro: rgb(0, 0, 0.5);
+  --sombra: 3px 5px 2px 0px rgba(55, 46, 48, 0.17);
+
+  --azulTemplate: #303c54;
+  --azulTemplate2: #324364;
+
+  --azul1: #2d2a8c;
+  --azul2: #3854a6;
+  --azul3: #3365a6;
+  --azul4: #368abf;
+  --azul5: #48b0d9;
+}
+
+.contenedor-cabecera {
+  background-color: var(--AzulTemplate);
+  color: var(--blanco);
+  font-size: 1.5rem !important;
+}
+
+.c-datatable-filter > label {
+  visibility: hidden;
+}
+
+.atender {
+  margin: 0;
+}
+
+.boton-elemento {
+  width: 100%;
+  border: var(--azulTemplate) 2px solid !important;
+  color: var(--azulTemplate )!important; 
+  font-size: .8rem;
+}
+
+.boton-elemento:hover {
+  width: 100%;
+  background-color: var(--azulTemplate);
+  color: var(--blanco) !important;
+}
+
+.boton-alerta:hover {
+  width: 100%;
+  background-color: var(--azul5);
+  color: var(--blanco) !important;
+}
+
+.c-datatable-filter > label::after {
+  margin-left: -25px;
+  content: "Filtrar:";
+  visibility: visible;
+}
+
+.c-datatable-filter > input::placeholder {
+  visibility: hidden;
+}
+
+.c-datatable-items-per-page > label {
+  visibility: hidden;
+}
+
+.c-datatable-items-per-page > label::after {
+  visibility: visible;
+  content: "Alertas por pagina:";
+}
+
+.page-item.active .page-link {
+  background-color: var(--azulTemplate) !important;
+  border-color: var(--azulTemplate) !important;
+}
+
+.negritas {
+  font-weight: bold;
+}

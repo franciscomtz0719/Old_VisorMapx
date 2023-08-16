@@ -1,0 +1,74 @@
+/*Informacion*/
+:root {
+  --blanco: #ffff;
+  --gris: #cccc;
+  
+  --negro: rgb(0, 0, 0.5);
+  --sombra: 3px 5px 2px 0px rgba(55, 46, 48, 0.17);
+
+  --azulTemplate: #303C54;
+  --azulTemplate2: #324364;
+
+  --azul1: #2d2a8c;
+  --azul2: #3854a6;
+  --azul3: #3365a6;
+  --azul4: #368abf;
+  --azul5: #48b0d9;
+}
+
+
+
+.contenedor-cabecera {
+  background-color: var(--azulTemplate);
+  color: var(--blanco);
+  font-size: .8rem;
+}
+.contenedor-cabecera-grafica {
+  background-color: var(--blanco);
+  color: var(--azulTemplate);
+  font-size: .8rem;
+}
+
+.contenedor-cabecera-principal {
+  background-color: var(--azulTemplate);
+  color: var(--blanco);
+  font-size: 1rem;
+}
+
+span {
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contenedor-icono{
+  display: grid;
+  place-items: center;
+}
+
+.icono {
+  width:48px;
+  height:48px;
+}
+
+@media (max-width: 768px) {
+  .imagencontainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .check {
+    max-width: 100%;
+  }
+}
+
+pre {
+  margin: 0;
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+}

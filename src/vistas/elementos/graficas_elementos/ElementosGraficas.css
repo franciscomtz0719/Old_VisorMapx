@@ -1,0 +1,47 @@
+:root {
+  --blanco: #ffff;
+  --gris: #cccc;
+  --AzulTemplate: #303c54;
+  --negro: rgb(0, 0, 0.5);
+  --sombra: 3px 5px 2px 0px rgba(55, 46, 48, 0.17);
+
+  --azulTemplate: #303C54;
+  --azulTemplate2: #324364;
+
+  --azul1: #2d2a8c;
+  --azul2: #303C54;
+  --azul3: #3365a6;
+  --azul4: #368abf;
+  --azul5: #48b0d9;
+}
+
+.contenedor-cabecera {
+  background-color: var(--azulTemplate);
+  color: var(--blanco);
+  font-size: .8rem;
+}
+
+.contenedor-cabecera-principal {
+  background-color: var(--azulTemplate);
+  color: var(--blanco);
+  font-size: 1rem;
+}
+
+.text-color {
+  color: #ffffff !important;
+  font-size: 15px;
+}
+
+.ocultar {
+  display: none;
+}
+
+.boton-reset {
+  color: var(--azul1);
+  font-weight: bold;
+}
+
+.boton-reset:hover {
+  background-color: rgba(110, 163, 241, 0.17);
+  border: 1px solid rgba(110, 163, 241, 0.5);
+}
